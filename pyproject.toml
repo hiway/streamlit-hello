@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-hello"
+version = "0.1.0"
+description = "Streamlit Hello World"
+authors = ["Harshad Sharma <harshad@sharma.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "streamlit_hello"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
